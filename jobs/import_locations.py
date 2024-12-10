@@ -52,9 +52,7 @@ class ImportLocations(Job):
             site, created = Location.objects.update_or_create(
                 name=site_name,
                 defaults={
-                    "city": city,
                     "status": status,
-                    "state": state,
                     "location_type": location_type,
                 },
             )
