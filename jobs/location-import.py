@@ -11,11 +11,11 @@ name = "Import Locations"
 class ImportLocations(Job):
     """Import Locations."""
 
-    csv_file = FileVar(label="CSV File", description="CSV File", required=True)
-
     class Meta:
         name = "Import Locations"
         description = "Import Locations."
+
+    csv_file = FileVar(label="CSV File", description="CSV File", required=True)
 
     def run(self, csv_file):
 
