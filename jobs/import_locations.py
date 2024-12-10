@@ -36,7 +36,7 @@ class ImportLocations(Job):
             state = row.get("state")
 
             if not site_name or not city or not state:
-                self.log_warning(f"Skipping row due to missing required fields: {row}")
+                self.logger.error(f"Skipping row due to missing required fields: {row}")
                 continue
 
             # Determine site type based on the name
