@@ -1,4 +1,4 @@
 from nautobot.apps.jobs import register_jobs
-from . import import_locations
+from .import_locations import ImportLocations
 
-__all__ = ["import_locations"]
+register_jobs(ImportLocations)
