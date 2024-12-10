@@ -1,0 +1,19 @@
+---
+sync_devices:
+  hostname:
+    commands:
+      - command: "show version | as json"
+        parser: textfsm
+        jpath: "system_name"
+      - command: "show version | as json"
+        parser: textfsm
+        jpath: "hardware.serial_number"
+      - command: "show version | as json"
+        parser: textfsm
+        jpath: "software.platform"
+      - command: "show interface all | as json"
+        parser: textfsm
+        jpath: "interfaces[?contains(name, 'mgmt')].name | [0]"
+      - command: "show interface all | as json"
+        parser: textfsm
+        jpath: "interfaces[?contains(name, 'mgmt')].address | [0] | split('/', &)[1]"
