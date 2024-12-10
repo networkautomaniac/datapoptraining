@@ -11,8 +11,8 @@ ip_address_host,location_name,device_role_name,namespace,device_status_name,inte
 172.18.0.24,"Ashburn-DC",Network,Global,Active,Active,Active,"DATA_POPULATION",arista_eos,False,True,22,30
 172.18.0.25,"Ashburn-DC",Network,Global,Active,Active,Active,"DATA_POPULATION",arista_eos,False,True,22,30
 172.18.0.26,"Ashburn-DC",Network,Global,Active,Active,Active,"DATA_POPULATION",arista_eos,False,True,22,30
-172.18.0.27,"SanDiego-BR",Network,Global,Active,Active,Active,"DATA_POPULATION",nokia_srl,False,True,22,30
-172.18.0.28,"Den-BR",Network,Global,Active,Active,Active,"DATA_POPULATION",nokia_srl,False,True,22,30
-172.18.0.29,"Ashburn-BR",Network,Global,Active,Active,Active,"DATA_POPULATION",nokia_srl,False,True,22,30
-172.18.0.30,"Newark-BR",Network,Global,Active,Active,Active,"DATA_POPULATION",nokia_srl,False,True,22,30
-172.18.0.31,"Chicago-BR",Network,Global,Active,Active,Active,"DATA_POPULATION",nokia_srl,False,True,22,30
+172.18.0.27,"SanDiego-BR",Network,Global,Active,Active,Active,"DATA_POPULATION",,False,True,22,30
+172.18.0.28,"Den-BR",Network,Global,Active,Active,Active,"DATA_POPULATION",,False,True,22,30
+172.18.0.29,"Ashburn-BR",Network,Global,Active,Active,Active,"DATA_POPULATION",,False,True,22,30
+172.18.0.30,"Newark-BR",Network,Global,Active,Active,Active,"DATA_POPULATION",,False,True,22,30
+172.18.0.31,"Chicago-BR",Network,Global,Active,Active,Active,"DATA_POPULATION",,False,True,22,30
