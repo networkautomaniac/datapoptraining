@@ -63,3 +63,6 @@ class ImportLocations(Job):
                 self.log_success(f"Created site: {site_name}")
             else:
                 self.log_info(f"Updated site: {site_name}")
+
+
+register_jobs(ImportLocations)
