@@ -41,9 +41,9 @@ class ImportLocations(Job):
 
             # Determine site type based on the name
             if site_name.endswith("-DC"):
-                location_type = LocationType.objects.get("Data Center")
+                location_type = LocationType.objects.get(name="Data Center")
             elif site_name.endswith("-BR"):
-                location_type = LocationType.objects.get("Branch")
+                location_type = LocationType.objects.get(name="Branch")
             else:
                 self.log_warning(f"Unknown site type for {site_name}, skipping.")
                 continue
