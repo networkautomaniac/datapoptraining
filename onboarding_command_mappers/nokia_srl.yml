@@ -1,5 +1,8 @@
 ---
 sync_devices:
+  nokia_srl:
+    platform: "nokia_srl"
+    manufacturer: "Nokia"
   hostname:
     commands:
       # Hostname
